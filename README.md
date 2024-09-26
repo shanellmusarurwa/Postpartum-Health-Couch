@@ -36,6 +36,7 @@ Font Awesome for social media icons
 Google Fonts for typography
 Sass (Optional, if needed for advanced styling)
 Installation
+EmailJS to Send Form Data via Email
 Clone the repository:
 
 bash
@@ -60,18 +61,11 @@ If using Live Server:
 
 Right-click on index.html and select Open with Live Server in your editor.
 
-Browse through the sections such as Services, Contact & Booking, Why Choose a Postpartum Coach, and explore blog articles fetched via the YouTube API.
-
-API Integration
-The website uses the YouTube API to fetch postpartum-related videos for the blog section. You can set up the API by following these steps:
-
-Go to the Google Developers Console, create a new project, and enable the YouTube Data API v3.
-
-Get your API Key and replace the placeholder in the JavaScript code:
+EmailJS is a service that allows you to send form data directly to an email address using just client-side JavaScript
 
 javascript
 Copy code
-const apiKey = 'YOUR_YOUTUBE_API_KEY';
+Add the EmailJS CDN to your HTML file
 Ensure you have the correct fetch request for fetching video data based on the keyword "postpartum health":
 
 javascript
