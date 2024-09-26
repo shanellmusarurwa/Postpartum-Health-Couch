@@ -1,0 +1,179 @@
+.jumbotron {
+    background-image: url(images/hero.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+#about{
+    background-color: #c1e5ff;
+}
+#about-us img {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+#services{
+    background-color: #c1e5ff;
+}
+#blog{
+    background-color: #c1e5ff;
+}
+#visit-us{
+    background-color: #c1e5ff;
+}
+#one{
+    padding: 40px;
+    border: 1px solid #86b9a3;
+    border-radius: 15% 43% 0% 36% / 1% 44% 24% 40% ;
+    background-color: #86b9a3;
+}
+#message input{
+    margin: auto 0;
+    
+}
+.display-4{
+    color: #fff;
+}
+.lead{
+    color: #fff;
+}
+.btn{
+    background-color: #86b9a3;
+    border: none;
+    color: #000;
+}
+.btn:hover{
+    background-color: #61af8d;
+}
+.card {
+    margin-bottom: 20px;
+  }
+.carousel-item p {
+    font-style: italic;
+  }
+.social-icons a {
+    font-size: 1.5rem;
+  }
+  /* Add box-shadow on hover */
+.shadow-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.shadow-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Add box-shadow and scaling animation on hover */
+.shadow-card {
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.shadow-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Adding hover animation for icons */
+.shadow-card i {
+    transition: transform 0.4s ease-in-out;
+}
+
+.shadow-card:hover i {
+    transform: rotate(360deg);
+}
+
+.carousel-item {
+    padding: 30px;
+}
+
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.rounded-circle {
+    border: 3px solid #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize carousel controls */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.shadow-card {
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.shadow-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+footer{
+    background-color: #86b9a3;
+}
+/* Social Media Icon Styling */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    background-color: #f0f0f0; /* Initial background color */
+    padding: 15px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon i {
+    font-size: 1.5rem;
+    color: #333; /* Initial icon color */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effects for Social Media Icons */
+.social-icon:hover {
+    background-color: #61af8d; /* Green background on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon:hover i {
+    color: #fff; /* Icon color turns white on hover */
+}
+
+@media (max-width:425px){
+    #one{
+        margin-bottom: 25px;
+        margin: 10px;
+    }
+}
+ 
+@media (max-width: 375px){
+    #one{
+        margin-bottom: 35px;
+        margin: 10px;
+        padding: -20px;
+    }
+}
+
+@media (max-width:320px){
+    #one{
+        margin-bottom: 35px;
+        margin: 10px;
+        padding: -20px;
+    }
+}
+
+
